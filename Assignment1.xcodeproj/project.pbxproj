@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A902C112BA58A8C00863D9B /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A902C102BA58A8C00863D9B /* ListItem.swift */; };
 		AC8A638C29B59BCD00C32694 /* Assignment1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A638B29B59BCD00C32694 /* Assignment1App.swift */; };
 		AC8A638E29B59BCD00C32694 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A638D29B59BCD00C32694 /* ContentView.swift */; };
 		AC8A639029B59BCE00C32694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8A638F29B59BCE00C32694 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A902C102BA58A8C00863D9B /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		AC8A638829B59BCD00C32694 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A638B29B59BCD00C32694 /* Assignment1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1App.swift; sourceTree = "<group>"; };
 		AC8A638D29B59BCD00C32694 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				AC8A638B29B59BCD00C32694 /* Assignment1App.swift */,
+				6A902C102BA58A8C00863D9B /* ListItem.swift */,
 				AC8A638D29B59BCD00C32694 /* ContentView.swift */,
 				AC8A638F29B59BCE00C32694 /* Assets.xcassets */,
 				AC8A639129B59BCE00C32694 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A902C112BA58A8C00863D9B /* ListItem.swift in Sources */,
 				AC8A638E29B59BCD00C32694 /* ContentView.swift in Sources */,
 				AC8A638C29B59BCD00C32694 /* Assignment1App.swift in Sources */,
 			);

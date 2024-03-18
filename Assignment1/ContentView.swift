@@ -8,19 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    let array: [String] = ["🤣","😜","😀","🤩","😂"]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        VStack{
+            Text("Emoji Counter")
+                .bold()
+            List {
+                ForEach(array, id: \.self) {
+                    emoji in ListItem(emoji:emoji)
+                }
+            }
+            .buttonStyle(BorderlessButtonStyle())
         }
-        .padding()
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
+
